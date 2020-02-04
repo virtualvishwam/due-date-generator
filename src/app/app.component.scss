@@ -1,0 +1,53 @@
+.cdk-visually-hidden {
+    visibility: hidden;
+}
+
+.mat-card {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(247, 243, 243);
+}
+
+.mat-checkbox {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.startEndDateCard {
+    input {
+        margin-left: 4px;
+        font-size: 1rem;
+    }
+}
+
+.weeklyOffCard {
+
+    .weeklyOffCardContent {
+        margin-top: 15px;
+    }
+}
+
+.frequencyCard {
+
+    .weeklyFrequency {
+        .mat-raised-button {
+            margin-top: 15px;
+        }
+    }
+    .monthlyFrequency {
+        .mat-raised-button {
+            margin-top: 15px;
+        }
+    }
+    .randomFrequency {
+        .mat-raised-button {
+            margin-top: 15px;
+        }
+        .mat-radio-button {
+            padding: 10px;
+            border: 1px solid black;
+            background-color: white;
+        }
+    }
+}
